@@ -1,0 +1,6 @@
+packages:
+  - client
+  - server
+allowBuilds:
+  msgpackr-extract: false
+  esbuild: true

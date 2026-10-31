@@ -1,0 +1,8 @@
+# Self-hosted option (GitHub Pages is the main deploy). Build first: pnpm build && docker build -t try-ghost .
+services:
+  app:
+    image: try-ghost:latest
+    container_name: try-ghost
+    restart: unless-stopped
+    ports:
+      - "${PUBLIC_PORT:-8201}:2567"

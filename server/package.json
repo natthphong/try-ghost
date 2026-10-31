@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.ts",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=22.18"
+  }
+}

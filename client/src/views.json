@@ -1,0 +1,9 @@
+{
+ "_": "rects in % of the 1600x900 frame (x,y,w,h). hotspot label sits at the rect center. Calibrated on the shipped base plates.",
+ "door":    { "peephole": [47, 11, 8, 12], "door_open": [36, 50, 18, 14], "garland": [25, 69, 7, 31], "knob": [24, 58, 7, 9], "chain": [56, 24, 10, 10] },
+ "peep":    { "circle": [26, 2, 48, 96] },
+ "living":  { "tv": [39.6, 28.6, 13.4, 20.4], "tv_off": [39.6, 30, 13.4, 34], "light": [31, 21, 6, 10], "clock": [47.6, 5.6, 6.2, 11.2], "chair": [76, 50, 21, 46], "window": [79, 0, 21, 48], "shrine": [95.5, 32, 3, 6] },
+ "bedroom": { "curtain_open": [62, 10, 28, 44], "window": [60, 2, 32, 58], "light": [0, 16, 7, 12], "yantra": [19, 5, 8, 13], "underbed": [12, 58, 55, 22], "slippers": [8, 72, 16, 10], "wall": [8, 24, 12, 12] },
+ "kitchen": { "light": [46, 0, 14, 10], "bathdoor": [85, 10, 15, 88], "doorway": [49, 18, 12, 40], "chair": [32, 52, 13, 30], "breaker": [64, 18, 9, 10] },
+ "bath":    { "mirror_look": [32, 10, 24, 40], "mirror": [32, 6, 24, 44], "light": [56, 0, 12, 8], "jar": [68, 58, 28, 40], "tap": [40, 50, 12, 10] }
+}

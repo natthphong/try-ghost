@@ -1,0 +1,11 @@
+{
+  "name": "try-ghost",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.14.0",
+  "scripts": {
+    "dev": "pnpm --filter client dev",
+    "build": "pnpm --filter client build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
